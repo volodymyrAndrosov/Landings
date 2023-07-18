@@ -9,10 +9,6 @@
     color: #fff;
 }
 
-/* a {
-    text-decoration: none;
-} */
-
 :root {
     --primary-color: #485b84;
     --secondary-color: #5b7bb4;
@@ -54,7 +50,7 @@ h1 {
 
 }
 
-/*  создание линия */
+/* core */
 #timeline ul li {
     list-style: none;
     position: relative;
@@ -62,11 +58,7 @@ h1 {
     margin: 0 auto;
     padding-top: 50px;
     background: #fff;
-    /* border: 2px red solid; */
 }
-
-/*  Блоки с опытом и описанием*/
-
 
 #timeline ul li div {
     position: relative;
@@ -81,7 +73,6 @@ h1 {
 }
 
 /* Right side */
-
 #timeline ul li:nth-child(odd) div {
     left: 40px;
     transform: translateX(200px);
@@ -93,10 +84,7 @@ h1 {
     transform: translateX(-200px);
 }
 
-
-
 /* Dots */
-
 #timeline ul li:after {
     content: '';
     position: absolute;
@@ -110,7 +98,7 @@ h1 {
     transition: all 0.3s ease-in-out;
 }
 
-/* osvnova strolochek */
+/* arrows */
 #timeline div:before {
     position: absolute;
     content: '';
@@ -120,16 +108,11 @@ h1 {
     border-style: solid;
 }
 
-
-/* Right side of arrows : ) */
-
 #timeline ul li:nth-child(odd) div:before {
     left: -15px;
     border-width: 8px 30px 8px 0;
     border-color: transparent var(--secondary-color) transparent transparent;
 }
-
-/* left side arrows  */
 
 #timeline ul li:nth-child(even) div:before {
     right: -15px;
@@ -137,7 +120,6 @@ h1 {
     border-color: transparent transparent transparent var(--secondary-color);
 }
 
-/* класс Show для js */
 #timeline ul li.show div {
     transform: none;
     visibility: visible;
@@ -150,10 +132,6 @@ h1 {
     background-color: var(--secondary-color);
 
 }
-
-
-/* под мобилки адаптейшн */
-/* delaem mobile view for 900px at first */
 
 @media(max-width:900px) {
     #timeline ul li div {
@@ -183,5 +161,4 @@ h1 {
         border-width: 8px 30px 8px 0;
         border-color: transparent var(--secondary-color) transparent transparent;
     }
-
 }

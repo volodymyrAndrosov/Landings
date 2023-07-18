@@ -8,7 +8,6 @@ html,
 body {
     background: #f4f4f4;
     font-family: Arial, Helvetica, sans-serif;
-    /* position: relative; */
 }
 
 #navbar ul {
@@ -35,14 +34,12 @@ body {
     cursor: pointer;
     background: coral;
     color: #fff;
-
 }
 
 #navbar ul li:hover {
     cursor: pointer;
     background: coral;
     color: #fff;
-
 }
 
 #navbar ul li a:hover {
@@ -52,21 +49,18 @@ body {
 
 }
 
-/* Вложеные боксы , делаем видимость */
-
+/* inner boxes */
 #navbar ul li:hover ul {
     display: block;
     position: absolute;
     left: 0;
     width: 200px;
     margin-top: 1rem;
-    /* border: 3px red solid; */
 }
 
 #navbar ul li:hover ul li {
     background: #e7e7e7;
     display: block;
-    /* color: red; */
 }
 
 #navbar ul li:hover ul li a {
@@ -86,12 +80,7 @@ body {
     text-align: center;
     font-size: 0.8rem;
     border-radius: 8px;
-
 }
-
-
-
-
 
 #navbar ul li:hover ul li:hover span {
     background: chocolate;
@@ -103,7 +92,6 @@ body {
 }
 
 #navbar {
-    /* background-color: rgba(42, 41, 40, 0.4); */
     position: sticky;
     top: 0;
     z-index: 999;

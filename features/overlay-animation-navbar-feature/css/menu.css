@@ -5,7 +5,6 @@
   z-index: 1;
 }
 
-
 .menu-wrap .toggler {
   position: absolute;
   top: 0;
@@ -16,7 +15,6 @@
   height: 50px;
   opacity: 0;
 }
-
 
 .menu-wrap .hamburger {
   position: absolute;
@@ -32,7 +30,7 @@
   justify-content: center;
 }
 
-/* Белая линия для гамбургера */
+/* white line menu */
 .menu-wrap .hamburger>div {
   position: relative;
   flex: none;
@@ -45,7 +43,7 @@
   transition: all 0.4s ease;
 }
 
-/* Верхняя и нижняя губа */
+/* lower and upper side */
 .menu-wrap .hamburger>div::before,
 .menu-wrap .hamburger>div::after {
   content: '';
@@ -57,7 +55,6 @@
   background: inherit;
 }
 
-/*  отделили от верхней (Нижняя губа)*/
 .menu-wrap .hamburger>div::after {
   top: 10px;
 }
@@ -76,7 +73,7 @@
   transform: rotate(225deg);
 }
 
-/* Анимация менюшки */
+/* menu animation*/
 .menu-wrap .toggler:checked~.menu {
   visibility: visible;
 }
