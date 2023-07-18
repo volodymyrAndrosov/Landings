@@ -35,35 +35,15 @@
     }
 
     /* showcase */
-
-
-    /* Home part (ARTICLES) */
-
     #home-articles .articles-container {
         grid-template-columns: repeat(2, 1fr);
-
     }
-
-    /* 
-#home-articles .articles-container>*:first-child {
-    grid-column: 1/span 3;
-}
-
-#home-articles .articles-container>*:nth-child(4) {
-    grid-column: 1/span 3;
-}
-
-#home-articles .articles-container>*:last-child {
-    grid-column: 1/span 3;
-}
- */
 
     #home-articles .articles-container article:first-child,
     #home-articles .articles-container article:last-child {
         grid-template-columns: 1fr;
         grid-column: 1;
     }
-
 }
 
 @media(max-width:600px) {
@@ -85,7 +65,6 @@
     #main-nav .social_item:nth-child(3) {
         margin-left: 240px;
     }
-
 
     #main-nav .flex-container {
         top: -8px;

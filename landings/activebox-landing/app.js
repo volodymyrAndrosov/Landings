@@ -1,7 +1,4 @@
 $(function () {
-
-
-  /* Fixed Header */
   let header = $("#header");
   let intro = $("#intro");
   let introH = intro.innerHeight();
@@ -26,9 +23,6 @@ $(function () {
     }
   }
 
-
-
-  /* Smooth scroll */
   $("[data-scroll]").on("click", function (event) {
     event.preventDefault();
 
@@ -42,17 +36,11 @@ $(function () {
     }, 700);
   });
 
-
-
-  /* Nav Toggle */
   navToggle.on("click", function (event) {
     event.preventDefault();
 
     nav.toggleClass("show");
   });
-
-
-
 
   let slider = $("#reviewsSlider");
 
@@ -64,7 +52,4 @@ $(function () {
     arrows: false,
     dots: true
   });
-
-
-
 });

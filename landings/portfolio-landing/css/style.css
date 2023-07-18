@@ -1,28 +1,3 @@
-/* 
-why i am using height :100% and not using img-fluid
-
-height:100%
-<div style="height:50px">
-    <div id="innerDiv" style="height:100%">
-    </div>
-</div>
-#innerDiv is going to have height:50px
-
-
-
-
-height:auto
-<div style="height:50px">
-    <div id="innerDiv" style="height:auto">
-          <div id="evenInner" style="height:10px">
-          </div>
-    </div>
-</div>
-now the #innerDiv is going to have height:10px
-
-
-
-*/
 #main-header img {
     width: 100%;
     height: 100%;
@@ -46,8 +21,8 @@ now the #innerDiv is going to have height:10px
     border-radius: 0!important;
     border-top:none!important;
 }
-/* mobile */
 
+/* mobile */
 @media(min-width:1199px) {
     .port-item {
         padding: 3em !important;
@@ -64,6 +39,4 @@ now the #innerDiv is going to have height:10px
     .mob-2 {
         flex-wrap: wrap;
     }
-
-
 }

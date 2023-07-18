@@ -208,8 +208,6 @@ hr.stripe {
 
 }
 
-
-
 .blogg__more a .arrow__line {
   position: absolute;
   left: 0;
@@ -228,11 +226,6 @@ hr.stripe {
   display: inline-block;
   margin-bottom: 40px;
 }
-
-/* 
-.images {
-  width: 180px;
-} */
 
 .section__experts {
   height: 225px;

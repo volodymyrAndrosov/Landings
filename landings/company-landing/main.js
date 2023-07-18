@@ -1,15 +1,3 @@
-// var map;
-
-// function initMap() {
-//   map = new google.maps.Map(document.getElementById('.map'), {
-//     center: {
-//       lat: -34.397,
-//       lng: 150.644
-//     },
-//     zoom: 8
-//   });
-// }
-
 function initMap() {
   const loc = {
     lat: 42.361145,
@@ -24,7 +12,7 @@ function initMap() {
     map: map
   })
 }
-// Sticky menu background
+
 window.addEventListener('scroll', function () {
   if (window.scrollY > 150) {
     document.querySelector('#navbar').style.opacity = 0.9;
@@ -33,8 +21,6 @@ window.addEventListener('scroll', function () {
   }
 });
 
-
-// Smooth Scrolling
 $('#navbar a, .btn').on('click', function (event) {
   if (this.hash !== '') {
     event.preventDefault();
@@ -42,8 +28,8 @@ $('#navbar a, .btn').on('click', function (event) {
     const hash = this.hash;
 
     $('html, body').animate({
-        scrollTop: $(hash).offset().top - 100
-      },
+      scrollTop: $(hash).offset().top - 100
+    },
       800
     );
   }

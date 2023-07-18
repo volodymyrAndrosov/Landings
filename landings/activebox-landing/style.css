@@ -1,7 +1,3 @@
-/* font-family: 'Open Sans', sans-serif;
-font-family: 'Raleway', sans-serif */
-
-
 h1,
 h2,
 h3,
@@ -9,10 +5,6 @@ h4,
 h5,
 h5 {
     margin: 0;
-}
-
-p {
-    /* margin:0 0 10px; */
 }
 
 body {
@@ -46,7 +38,6 @@ body {
     height: 100px;
 }
 
-
 .header_inner {
     padding: 35px 0;
     display: flex;
@@ -68,7 +59,6 @@ body {
 }
 
 /* Nav */
-
 .nav {
     display: flex;
     font-size: 14px;
@@ -120,7 +110,6 @@ body {
     margin: 0 auto;
     line-height: 1.1;
     text-align: center;
-
 }
 
 .intro_subtitle {
@@ -129,11 +118,9 @@ body {
     line-height: 1.5;
     font-weight: 400;
     margin-bottom: 60px;
-
 }
 
 /* Button */
-
 .btn {
     display: inline-block;
     vertical-align: top;
@@ -160,7 +147,6 @@ body {
 }
 
 /* Features */
-
 .features {
     display: flex;
     flex-wrap: wrap;
@@ -209,7 +195,6 @@ body {
 
 .works_item:hover .works_content {
     opacity: 1;
-
 }
 
 .works_photo {
@@ -243,7 +228,6 @@ body {
     color: #fff;
     text-transform: uppercase;
     margin-bottom: 5px;
-
 }
 
 .works_text {
@@ -252,11 +236,7 @@ body {
     color: #fff;
 }
 
-/*TEAM */
-
-
-/* Team
-===================*/
+/* Team ===================*/
 .team {
     margin: 100px 0 70px;
 }
@@ -282,14 +262,12 @@ body {
 
 .team__name {
     margin-bottom: 8px;
-
     font-size: 22px;
     color: #2d3033;
 }
 
 .team__prof {
     margin-bottom: 15px;
-
     font-size: 13px;
     color: #e84545;
     text-transform: uppercase;
@@ -302,7 +280,6 @@ body {
     line-height: 1.5;
     color: #6c7279;
 }
-
 
 .social {
     display: flex;
@@ -319,10 +296,8 @@ body {
     width: 40px;
     height: 40px;
     margin-right: 4px;
-
     background-color: #fff;
     border: 1px solid #e8ecee;
-
     transition: background .1s linear;
 }
 
@@ -352,14 +327,11 @@ body {
 .social__icon {
     display: block;
     height: 18px;
-
     fill: #c6cacc;
-
     transition: fill .1s linear;
 }
 
 /* REWIEWS */
-
 .reviews {
     overflow: hidden;
     background-color: #53354a;
@@ -391,7 +363,6 @@ body {
     top: 50%;
     right: 0;
     z-index: 1;
-
     transform: translateY(-50%);
 }
 
@@ -405,7 +376,6 @@ body {
 
 .reviews__text {
     margin-bottom: 25px;
-
     font-family: 'Cardo', sans-serif;
     font-style: italic;
     font-size: 36px;
@@ -427,7 +397,6 @@ body {
     padding: 0 0 10px;
     list-style: none;
     width: 50%;
-
     position: absolute;
     bottom: 0;
     right: 0;
@@ -442,13 +411,11 @@ body {
     width: 15px;
     height: 15px;
     padding: 0;
-
     background: #fff;
     border-radius: 50%;
     border: 0;
     opacity: .5;
     cursor: pointer;
-
     font-size: 0;
     color: transparent;
 }
@@ -471,7 +438,6 @@ body {
     font-size: 28px;
     margin-bottom: 12px;
     color: #2d3033;
-
 }
 
 .download__text {
@@ -484,7 +450,6 @@ body {
 
 .btn--long {
     min-width: 280px;
-
 }
 
 .footer {
@@ -497,7 +462,6 @@ body {
     padding: 90px 0;
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .footer__block {
@@ -539,7 +503,6 @@ body {
     font-size: 14px;
     color: #808080;
     line-height: 1.5;
-
 }
 
 .burger {
@@ -572,20 +535,15 @@ body {
 }
 
 .burger__item:before {
-
-
     top: -8px;
 }
 
 .burger__item:after {
-
     bottom: -8px;
 }
 
 /* MEDIA QUERIES */
 @media(max-width:1300px) {
-
-    /* works */
     .works_item {
         width: 50%;
     }
@@ -605,7 +563,6 @@ body {
         width: 100%;
         text-align: right;
         background-color: #31344e;
-
     }
 
     .nav.show {
@@ -636,7 +593,6 @@ body {
     .team__item {
         width: 50%;
         text-align: center;
-
     }
 
     .team__photo {
@@ -653,16 +609,11 @@ body {
         width: 100%;
         overflow: hidden;
         margin: 15px 15px;
-
     }
 
     .reviews__content {
         width: 100%;
         padding-bottom: 15px;
-    }
-
-    .reviews__image {
-        /* min-width: 991px; */
     }
 }
 
@@ -695,7 +646,6 @@ body {
     .team__item {
         width: 100%;
         text-align: center;
-
     }
 
     .team {

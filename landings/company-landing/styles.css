@@ -48,7 +48,6 @@ p {
 .bg-primary {
   background: #93cb52;
   color: #fff;
-
 }
 
 .l-heading {
@@ -134,7 +133,6 @@ p {
 }
 
 /* Navbar */
-
 #navbar {
   background: #333;
   display: flex;
@@ -164,7 +162,6 @@ p {
 }
 
 /* ShowCase */
-
 #showcase {
   background: #333 url("image_resources/showcase.jpg") no-repeat center/cover;
   height: 100vh;
@@ -188,7 +185,6 @@ p {
 }
 
 /* Section: What we Do */
-
 #what .items {
   display: flex;
   padding: 1rem;
@@ -208,7 +204,6 @@ p {
 }
 
 /* Section : Who We Are */
-
 #who {
   display: flex;
 }

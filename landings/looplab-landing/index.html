@@ -9,7 +9,7 @@
   <!-- bootstrap css -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-  <!-- Подключка стилей -->
+  <!-- style import -->
   <link rel="stylesheet" href="css/style.css" />
   <title>LoopLab</title>
 </head>
@@ -22,7 +22,6 @@
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
@@ -41,6 +40,7 @@
       </div>
     </div>
   </nav>
+
   <!-- showcase -->
   <header id="home-section">
     <!-- position-absolute + min-height + rgba 0.7 -->
@@ -112,6 +112,7 @@
       </div>
     </div>
   </header>
+  
   <!-- section Explore head-->
   <section id="explore">
     <div class="container">
@@ -167,10 +168,6 @@
       </div>
     </div>
   </section>
-
-
-
-
 
   <!-- create  head-->
   <section id="create" class="bg-primary">
@@ -241,7 +238,6 @@
             nisi ut alias vero?
           </p>
           <a href="" class="btn btn-outline-light">Find out more</a>
-
         </div>
       </div>
     </div>
@@ -301,7 +297,6 @@
     </div>
   </footer>
 
-
   <!-- contact modal -->
   <div class="modal fade text-dark" id="contactModal">
     <div class="modal-dialog">
@@ -352,9 +347,7 @@
       crossorigin="anonymous"
     ></script>
     <script>
-      // Получаем год(который на компе) для footer copyright
       $('#year').text(new Date().getFullYear());
-      // инициализация скрола
       $('bdoy').scrollspy({target:'main-nav'});
       $("#main-nav a").on('click', function (event) {
       if (this.hash !== "") {

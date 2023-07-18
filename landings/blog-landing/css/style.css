@@ -12,7 +12,6 @@
 
 header {
     border-bottom: black 1px solid;
-
 }
 
 nav .container {
@@ -22,7 +21,6 @@ nav .container {
 
 .main__nav {
     display: flex;
-    /* align-items: center; */
     height: 44px;
 }
 
@@ -33,12 +31,10 @@ nav .container {
     text-align: right;
     font-size: 20px;
     font-weight: 300;
-    /* padding:15px 5px; */
     padding: 0 10px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    /* margin-left:30px; */
 }
 
 .logo span {
@@ -48,7 +44,6 @@ nav .container {
 .main__items {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
     flex-grow: 5;
 }
 
@@ -57,9 +52,7 @@ nav .container {
     padding: 13px 10px;
     color: gray;
     margin: 0;
-
 }
-
 
 .main__items .gray__item ul li {
     list-style: none;
@@ -97,14 +90,12 @@ nav .container {
 }
 
 /* showcase */
-
 #showcase {
     height: 94vh;
     background: url("../img/showcase_bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-
 }
 
 #showcase .container {
@@ -196,7 +187,6 @@ nav .container {
 .flex__item p {
     margin: 10px 0;
     padding: 5px 10px;
-
 }
 
 .flex__item {
@@ -296,7 +286,6 @@ footer .flex__items p {
 
 .form-control {
     display: block;
-    /* width: 100%; */
     height: calc(2.25rem + 2px);
     padding: 0.375rem 0.75rem;
     font-size: 1rem;
@@ -316,7 +305,6 @@ footer .flex__items p {
     background: #fff;
     padding: 10px 40px;
     border-radius: 20px;
-    /* transition: all 0.3s ease-in-out; */
 }
 
 .subscribeBtn {
@@ -372,11 +360,7 @@ footer .flex__items p {
     display: none;
 }
 
-
-
-
 /* mobile */
-
 @media(max-width:960px) {
     .triple .flex__item {
         width: 29% !important;
@@ -422,7 +406,6 @@ footer .flex__items p {
 @media(max-width:700px) {
     .triple .flex__item {
         width: 25% !important;
-        /* margin: 0 25px; */
         margin: 0 15px;
     }
 }
@@ -451,7 +434,6 @@ footer .flex__items p {
 @media(max-width:595px) {
     .main__showcase img {
         display: none;
-
     }
 
     .main__text {
@@ -473,7 +455,6 @@ footer .flex__items p {
         flex-direction: column;
         flex-wrap: nowrap;
     }
-
 
     .gray__item {
         display: none;

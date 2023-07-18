@@ -51,7 +51,6 @@ h6 {
 
 
 /* Utility */
-
 .container {
     max-width: var(--max-width);
     margin: auto;
@@ -84,9 +83,6 @@ h6 {
 
 #main-nav ul {
     display: flex;
-    /* flex-direction: row; */
-    /* justify-self: end; */
-
     justify-content: flex-end;
 }
 
@@ -117,9 +113,7 @@ h6 {
     margin-right: .5rem;
 }
 
-
 /* Showcase  */
-
 #showcase {
     color: #ffff;
     background: #333;
@@ -144,18 +138,15 @@ h6 {
     align-items: center;
     justify-content: center;
     height: 50vh;
-    /* grid-gap: 1rem; */
 }
 
 #showcase .showcase-content {
     z-index: 1;
-
 }
 
 #showcase .showcase-content p {
     margin-bottom: 1rem;
 }
-
 
 .category {
     display: inline-block;
@@ -185,7 +176,6 @@ h6 {
     background: var(--dark-color);
     color: #fff;
     padding: 0.5rem 1.5rem;
-
 }
 
 .btn-light {
@@ -199,7 +189,6 @@ h6 {
 .btn-secondary {
     background: var(--secondary-color);
 }
-
 
 .btn:hover {
     opacity: 0.9;
@@ -216,7 +205,6 @@ h6 {
     padding: 1rem;
 }
 
-
 /* hoome articles */
 #home-articles .articles-container {
     display: grid;
@@ -232,7 +220,6 @@ h6 {
     align-items: center;
 }
 
-
 #home-articles .articles-container>*:last-child {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -240,7 +227,6 @@ h6 {
     grid-column: 2/ span 2;
     align-items: center;
 }
-
 
 .bg-dark {
     background: var(--dark-color);
@@ -269,7 +255,6 @@ h6 {
     padding: 3rem 0;
 }
 
-
 .p-1 {
     padding: 1.5rem;
 }
@@ -297,7 +282,6 @@ h6 {
     color: #fff;
 }
 
-
 /* footer */
 #main-footer {
     background: var(--dark-color);
@@ -324,7 +308,6 @@ h6 {
     padding: .5rem;
     text-align: center;
     font-size: 0.75rem;
-
 }
 
 #main-footer .footer-container input[type="email"] {
@@ -368,7 +351,6 @@ p {
     justify-content: center;
     align-items: center;
     width: 80px;
-    /* height: 80px; */
     margin-right: -10px;
 }
 
@@ -379,7 +361,6 @@ p {
     transition: all 0.3s ease;
     border-radius: 18px;
     opacity: 0.6;
-
 }
 
 .icon:hover {
@@ -388,8 +369,6 @@ p {
 
 .icon_inst:hover {
     background: linear-gradient(to bottom, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #FCAF45, #FFDC80);
-    /* background: black; */
-
 }
 
 .icon_twit:hover {
@@ -405,7 +384,6 @@ p {
     fill: blue;
     background: #000;
 }
-
 
 /* ABOUT */
 .page-container {

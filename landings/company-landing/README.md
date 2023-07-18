@@ -1,2 +1,0 @@
-# FlexCompanyLanding
-MyStudyWithFlexTechnology_landing
